@@ -1,0 +1,26 @@
+{
+  "server": {
+    "port": 8080
+  },
+  "database": {
+    "driver": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "user": "postgres",
+    "password": "postgres",
+    "name": "satonic"
+  },
+  "email": {
+    "smtp_host": "smtp.example.com",
+    "smtp_port": 587,
+    "smtp_user": "your-email@example.com",
+    "smtp_password": "your-smtp-password",
+    "from_email": "noreply@satonic.com"
+  },
+  "auth": {
+    "jwt_secret": "generate-a-secure-random-string-here",
+    "jwt_expiration": 24,
+    "code_length": 6,
+    "code_expiration": 15
+  }
+} 
